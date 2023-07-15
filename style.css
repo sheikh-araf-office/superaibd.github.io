@@ -1,0 +1,262 @@
+/* Custom CSS for the website */
+
+/* Sticky navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: "Mulish", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(18, 0, 177) !important;
+}
+
+.navbar-nav .nav-item.active {
+    color: rgb(18, 0, 177) !important;
+}
+
+
+/* Hero Section */
+.hero-section {
+    height: 500px;
+}
+
+/* Logo */
+.navbar-brand img {
+    max-height: 40px;
+}
+
+/* Transparent cart button */
+.transparent-cart-btn {
+    background-color: transparent !important;
+    border: none;
+    color: rgb(24, 11, 202) !important;
+}
+
+/* carousel */
+
+.carousel-item img {
+    width: 1280px;
+    height: 600px;
+    object-fit: contain;
+    /* Ensure the image fills the specified dimensions */
+    transition: 0.5s ease-in-out;
+}
+
+/* Card Section */
+.card-section {
+    padding-top: 30px !important;
+
+    background-color: rgb(19, 4, 58);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Set the background color for the card section */
+}
+
+
+.card {
+   
+    
+    color: white;
+    font-family: "Mulish", sans-serif;
+    border: none;
+    background-color: transparent !important;
+    overflow: hidden;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+}
+
+.card-body{
+    padding: 2% !important;
+}
+
+
+
+.card i {
+    font-size: 40px;
+}
+
+.cardicon-color1{
+    color: rgb(42, 204, 80);
+}
+
+.cardicon-color2{
+
+    color: rgb(66, 71, 222);
+
+}.cardicon-color3{
+
+    color: rgb(237, 69, 83);
+}
+
+
+
+/* Categories Section */
+.categories-section {
+    text-align: center; /* Align the content in the middle */
+    margin-top: 30px; /* Add top margin for spacing */
+}
+
+.categories-section h2{
+    font-family: "Mulish", sans-serif;
+    color: rgb(85, 85, 85);
+}
+
+.category:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+}
+
+.categories-row {
+    display: flex; /* Use flexbox for the categories rows */
+    justify-content: center; /* Center the categories horizontally */
+    gap: 10px; /* Set the maximum gap between categories */
+}
+
+.category {
+    flex: 1; /* Distribute the categories evenly within the row */
+    display: flex; /* Use flexbox for each category */
+    flex-direction: column; /* Arrange the category content vertically */
+    align-items: center; /* Center the category content horizontally */
+}
+
+.category img {
+    width: 200px; /* Set the width of the category images to 200px */
+    height: 170px; /* Maintain the aspect ratio of the images */
+}
+
+
+/* Buy Now! Section */
+.buy-now-section {
+    text-align: center; /* Align the content in the middle */
+    margin-top: 30px; /* Add top margin for spacing */
+}
+
+.buy-now-section h2{
+    font-family: "Mulish", sans-serif;
+    color: rgb(85, 85, 85);;
+}
+.product-container {
+    display: flex; /* Use flexbox for the product container */
+    justify-content: center; /* Center the products horizontally */
+    gap: 20px; /* Set the gap between products */
+}
+
+.product {
+    flex: 1; /* Distribute the products evenly within the container */
+    max-width: 300px; /* Set the maximum width of each product */
+}
+
+.product iframe {
+    width: 100%; /* Set the iframe width to fill the container */
+    height: 400px; /* Set the height of each iframe */
+}
+
+.button-container {
+    margin-top: 10px; /* Add top margin for spacing */
+}
+
+.buy-button {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+}
+
+.buy-button:hover {
+    transform: scale(1.1);
+}
+
+.cart-button {
+    color: rgb(37, 37, 37);
+    border: none;
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cart-button:hover{
+    color: navy;
+}
+
+.animated-paragraph {
+    animation: scaleUpDown 2s infinite;
+}
+
+/* Custom Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0000a9;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #43e766;
+}
+
+@keyframes scaleUpDown {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+footer {
+    
+    padding: 40px 0;
+  }
+  
+  .first-footer{
+
+    margin-top: 50px;
+
+  }
+
+  footer h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer.py-2 {
+    font-size: 14px;
+    background-color: #1b026d;
+    text-align: center;
+  }
+  
+  footer.py-2 p {
+    margin-bottom: 0;
+  }
+  
+  footer.py-2 a {
+    color: #fff;
+  }
+
+  .footer-bg-color{
+
+    background-color: #1b026d;
+
+  }
+  
+  

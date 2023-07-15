@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./rsrc/favicon.ico" type="image/x-icon">
+
+    <title>Neways Mart</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./rsrc/Neways-Logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <div class="ml-3">
+            <a href="#" class="btn btn-primary transparent-cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="cart-icon">0</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section">
+      <div id="carouselExample" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExample"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExample" data-slide-to="1"></li>
+          <li data-target="#carouselExample" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./rsrc/carosoul/1.png"
+              class="d-block w-100"
+              alt="Slide 1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./rsrc/carosoul/2.png"
+              class="d-block w-100"
+              alt="Slide 2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./rsrc/carosoul/3.png"
+              class="d-block w-100"
+              alt="Slide 3"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Card Section -->
+    <section class="card-section">
+      <div class="container">
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <i class="fas fa-trophy cardicon-color1"></i>
+                <h5 class="card-title">Trust</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <i class="fas fa-medal cardicon-color2"></i>
+                <h5 class="card-title">Quality</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <i class="fas fa-heart cardicon-color3"></i>
+                <h5 class="card-title">Believe</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catagories Section -->
+    <section class="catagory">
+      <div class="container">
+        <!-- Categories Section -->
+        <div class="categories-section text-center">
+          <h2 class="pt-5 pb-5">Catagories</h2>
+          
+          <div class="categories-row">
+            <!-- Category 1 -->
+            <div class="category">
+              <img src="./rsrc/catagories/1.png" alt="Category 1" />
+              <p>Graphics Card</p>
+            </div>
+
+            <!-- Category 2 -->
+            <div class="category">
+              <img src="./rsrc/catagories/2.png" alt="Category 2" />
+              <p>Processors</p>
+            </div>
+
+            <!-- Category 3 -->
+            <div class="category">
+              <img src="./rsrc/catagories/3.png" alt="Category 3" />
+              <p>Casings</p>
+            </div>
+
+            <!-- Category 4 -->
+            <div class="category">
+              <img src="./rsrc/catagories/4.png" alt="Category 4" />
+              <p>Keyboards and Mouse</p>
+            </div>
+
+            <!-- Category 5 -->
+            <div class="category">
+              <img src="./rsrc/catagories/5.png" alt="Category 5" />
+              <p>Monitors</p>
+            </div>
+          </div>
+          <div class="categories-row">
+            <!-- Category 6 -->
+            <div class="category">
+              <img src="./rsrc/catagories/6.png" alt="Category 6" />
+              <p>Accessories</p>
+            </div>
+
+            <!-- Category 7 -->
+            <div class="category">
+              <img src="./rsrc/catagories/7.png" alt="Category 7" />
+              <p>Headphones</p>
+            </div>
+
+            <!-- Category 8 -->
+            <div class="category">
+              <img src="./rsrc/catagories/8.png" alt="Category 8" />
+              <p>Thermal Cooling</p>
+            </div>
+
+            <!-- Category 9 -->
+            <div class="category">
+              <img src="./rsrc/catagories/9.png" alt="Category 9" />
+              <p>Professional Microphones</p>
+            </div>
+
+            <!-- Category 10 -->
+            <div class="category">
+              <img src="./rsrc/catagories/10.png" alt="Category 10" />
+              <p>Smartwatches</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="buy-now-section text-center">
+      <h2>Buy Now!</h2>
+      <p class="animated-paragraph"> Use mouse to rotate the 3d view of product !</p>
+      <div class="product-container">
+          <div class="product">
+              <iframe src="https://lumalabs.ai/embed/bb3e32e1-613a-41e5-a5d6-e5603576aa6b?mode=slf&background=%23ffffff&color=%23000000&showTitle=false&loadBg=false&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="200" height="400" frameborder="0" title="luma embed" style="border: none;"></iframe>
+              <div class="button-container">
+                  <button class="buy-button">Buy Now</button>
+                  <button class="cart-button">Add to Cart</button>
+              </div>
+          </div>
+          <div class="product">
+              <iframe src="https://lumalabs.ai/embed/f562b81b-d546-42d0-bdee-3ebe8dfba143?mode=slf&background=%23ffffff&color=%23000000&showTitle=false&loadBg=false&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="200" height="400" frameborder="0" title="luma embed" style="border: none;"></iframe>
+              <div class="button-container">
+                  <button class="buy-button">Buy Now</button>
+                  <button class="cart-button">Add to Cart</button>
+              </div>
+          </div>
+          <div class="product">
+              <iframe src="https://lumalabs.ai/embed/464b063e-9577-4a2b-ba8e-6be19fc8e493?mode=slf&background=%23ffffff&color=%23000000&showTitle=false&loadBg=false&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="200" height="400" frameborder="0" title="luma embed" style="border: none;"></iframe>
+              <div class="button-container">
+                  <button class="buy-button">Buy Now</button>
+                  <button class="cart-button">Add to Cart</button>
+              </div>
+          </div>
+          <div class="product">
+              <iframe src="https://lumalabs.ai/embed/15921551-31ef-436b-96e8-35c9016ba693?mode=slf&background=%23ffffff&color=%23000000&showTitle=false&loadBg=false&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="200" height="400" frameborder="0" title="luma embed" style="border: none;"></iframe>
+              <div class="button-container">
+                  <button class="buy-button">Buy Now</button>
+                  <button class="cart-button">Add to Cart</button>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <footer class="footer-bg-color text-white first-footer">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Neways3</h4>
+          <p>Neways has a great vision. To reach the 100% efficiency of a product utilizing it in a multifunctional way!</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Business Info</h4>
+          <p>House#2, KA/10 Mymensingh Ln, Dhaka 1000 Bangladesh</p>
+          <p>+8809638666333</p>
+          <p>info@neways3.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <footer class="footer-bg-color text-white py-2 second-footer">
+    <div class="container text-center">
+      <p>&copy; 2023 Neways3. All Rights Reserved. Neways International Company Ltd</p>
+    </div>
+  </footer>
+  
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
